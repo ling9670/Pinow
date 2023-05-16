@@ -64,6 +64,11 @@ body{
 	left: 0;
 }
 
+#header logo{
+	height: 20hv;
+	width: 20%;
+}
+
 #navbar{
 	display: flex;
 	align-items: center;
@@ -104,7 +109,7 @@ body{
 
 /*Home page*/
 #hero{
-	background-image: url(img/1.jepg);
+	background-image: url(img/1.jpeg);
 	height: 90vh;
 	width: 100%;
 	background-size: cover;
