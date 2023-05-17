@@ -64,9 +64,8 @@ body{
 	left: 0;
 }
 
-#header logo{
-	max-width: 20%;
-	max-height: 20%;
+#header img{
+	width: 20%;
 }
 
 #navbar{
