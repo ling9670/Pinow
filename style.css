@@ -277,17 +277,13 @@ body{
 	color: #000;
 }
 
-#banner button{
-	background-color:#FFFFFF ;
+#banner button:hover {
+	background:#FFFFFF;
 	color: #544E4C;
-	border: 0;
-	padding: 14px 80px 14px 65px;
-	background-repeat: no-repeat;
-	cursor: pointer;
-	font-weight: 700;
-	font-size: 15px;
 }
 
+
+#newsletter
 
 
 /*Shop page*/
