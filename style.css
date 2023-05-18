@@ -313,13 +313,13 @@ body{
 #newsletter h4{
 	font-size: 22px;
 	font-weight: 700;
-	color: #fff;
+	color: #000;
 }
 
 #newsletter p{
 	font-size: 14px;
 	font-weight: 600;
-	color: #fff;
+	color: #000;
 }
 
 #newsletter .form{
@@ -495,13 +495,15 @@ footer .copyright{
 	}
 
 	#banner{
-		height: ;
+		height: 20vh;
 	}
 
-
-
-
+	#newsletter .form{
+		width: 70%;
+	}
 }
+
+
 
 
 
