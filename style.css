@@ -588,27 +588,26 @@ footer .copyright{
 	z-index: -9;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Contact page*/
+
+#page-header .about-header{
+	background-image: url("img/nanner.jpg");
+}
+
+#about-head{
+	display: flex;
+	align-items: center;
+}
+
+#about-head img{
+	width: 50%;
+	height: auto;
+}
+
+#about-head div{
+	padding-left: 40px;
+}
+
 
 
 /* Start Media Query*/
@@ -781,6 +780,20 @@ footer .copyright{
 	#blog .blog-details{
 		width: 100%;
 	}
+
+	 /* about page */
+	 #about-head{
+	 	flex-direction: column ;
+	 }
+
+	 #about-head img{
+	 	width: 100%;
+	 	margin-bottom: 20px;
+	 }
+
+	 #about-head div{
+	 	padding-left:0px ;
+	 }
 
 }
 
