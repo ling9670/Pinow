@@ -305,6 +305,7 @@ body{
 	flex-wrap: wrap;
 	align-items: center;
 	background-image: url("img/news.jpg");
+	opacity: 70%;
 	background-repeat: no-repeat;
 	background-position: 20% 30%;
 	background-color: #041e42;
@@ -342,6 +343,7 @@ body{
 }
 
 #newsletter button{
+	list-style: none;
 	background-color: #DFD5CA;
 	color: #fff;
 	white-space: nowrap;
@@ -361,6 +363,9 @@ footer .col{
 	flex-direction: column;
 	align-items: flex-start;
 	margin-bottom: 20px;
+}
+
+footer .col a{
 	text-decoration: none;
 }
 
