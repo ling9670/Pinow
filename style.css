@@ -169,8 +169,8 @@ body{
 
 #feature{
 	display: flex;
-	justify-content: space-between;
-	padding-top: 20px;
+	align-items: center;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
 }
 
