@@ -342,7 +342,7 @@ body{
 }
 
 #newsletter button{
-	background-color: #544E4C;
+	background-color: #DFD5CA;
 	color: #fff;
 	white-space: nowrap;
 	border-top-left-radius: 0;
@@ -509,7 +509,7 @@ footer .copyright{
 }
 
 #prodetails .single-pro-details button{
-	background-color: #544E4C;
+	background-color: #DFD5CA;
 	color: #FFF;
 }
 
@@ -632,8 +632,16 @@ footer .copyright{
 	font-size: 14px;
 }
 
+
+#form-details{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 80px;
+}
+
 #form-details form{
-	width: 65%;
+	width: 80%;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -649,8 +657,8 @@ footer .copyright{
 }
 
 #form-details form button{
-	background-color: #544E4C;
-	#color: #FFF;
+	background-color: #DFD5CA;
+	color: #FFF;
 }
 
 
