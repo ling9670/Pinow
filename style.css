@@ -146,10 +146,13 @@ body{
 }
 
 #hero h4{
+	font-size: 20px;
 	padding-bottom: 30 px;
 }
 
 #hero h2{
+	font-size: 30px;
+	font-weight: 700;
 	color: #544E4C;
 }
 
@@ -165,24 +168,13 @@ body{
 }
 
 #feature{
-	text-align: center;
-}
-
-#feature h2{
-	font-size: 20px;
-}
-
-#feature h1{
-	font-size: 16px;
-}
-
-#feature .fe{
 	display: flex;
 	justify-content: space-between;
 	padding-top: 20px;
 	flex-wrap: wrap;
-
 }
+
+
 #feature .fe-box{
 	width: 180px;
 	text-align: center;
@@ -264,19 +256,6 @@ body{
 	color: #088178;
 }
 
-#product1 .pro .cart{
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
-	border-radius: 50px;
-	background-color: #DFD5CA;
-	font-weight: 500;
-	color: #000;
-	border: 1px solid #cce7d0;
-	position: absolute;
-	bottom: 20px;
-	right: 10px;
-}
 
 #banner{
 	display: flex;
