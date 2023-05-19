@@ -165,12 +165,24 @@ body{
 }
 
 #feature{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	text-align: center;
 }
 
+#feature h2{
+	font-size: 20px;
+}
+
+#feature h1{
+	font-size: 16px;
+}
+
+#feature .fe{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	flex-wrap: wrap;
+
+}
 #feature .fe-box{
 	width: 180px;
 	text-align: center;
@@ -349,6 +361,7 @@ body{
 	white-space: nowrap;
 	border-top-left-radius: 0;
 	border-bottom-left-radius: 0;
+	padding-left: 3px;
 }
 
 footer{
@@ -376,6 +389,7 @@ footer .logo{
 
 footer h4{
 	font-size: 	14px;
+	font-weight: 700;
 	padding-bottom: 20px;
 }
 
