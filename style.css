@@ -146,7 +146,7 @@ body{
 }
 
 #hero h4{
-	font-size: 30px;
+	font-size: 20px;
 	padding-bottom: 30 px;
 }
 
@@ -253,7 +253,7 @@ body{
 	padding-top: 7px;
 	font-size: 15px;
 	font-weight: 700;
-	color: #088178;
+	color: #6f6a65;
 }
 
 
@@ -455,9 +455,9 @@ footer .copyright{
 }
 
 #prodetails .single-pro-details h4{
+	font-size: 16px;
+	font-weight: 500;
 	padding: 40px 0  20px 0;
-	word-wrap: break-word;
-	font-size: 20px;
 }
 
 
@@ -527,11 +527,11 @@ footer .copyright{
 	object-fit: cover;
 }
 
-#blog.blog-details{
+#blog .blog-details{
 	width: 50%;
 }
 
-#blog.blog-details a{
+#blog .blog-details a{
 	text-decoration: none;
 	font-size: 11px;
 	color: #000;
@@ -540,7 +540,7 @@ footer .copyright{
 	transition: 0.3s;
 }
 
-#blog.blog-details a::after{
+#blog .blog-details a::after{
 	content: "";
 	width: 50px;
 	height: 1px;
@@ -550,17 +550,21 @@ footer .copyright{
 	right: -60px;
 }
 
-#blog.blog-details a:hover{
+#blog .blog-details a:hover{
 	color: #544E4C;
-
 }
 
-#blog.blog-details a:hover::after{
+#blog .blog-details a:hover::after{
 	background-color: #544E4C;
 }
 
+#blog .blog-details h4{
+	font-size: 20px;
+	font-weight: 600;
+}
 
-#blog.blog-details h1{
+#blog .blog-box h1{
+	font-size: 40px;
 	position: absolute;
 	top: -40px	;
 	font-size: 70px;
@@ -568,6 +572,26 @@ footer .copyright{
 	color: #c9cbce;
 	z-index: -9;
 }
+
+#pagnation {
+	text-align: center;
+}
+
+#pagnation a{
+	text-decoration: none;
+	background-color: #DFD5CA;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: #000;
+	font-weight: 600;
+}
+
+#pagnation a i{
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+}
+
 
 /*Contact page*/
 #contact-details{
