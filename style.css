@@ -490,8 +490,10 @@ footer .copyright{
 }
 
 #prodetails .single-pro-details button{
-	background-color: #DFD5CA;
-	color: #FFF;
+	font-size: 14px;
+	color: #000;
+	text-decoration: underline;
+	padding-top: 8px;
 }
 
 
